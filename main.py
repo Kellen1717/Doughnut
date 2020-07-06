@@ -1,5 +1,22 @@
 print("Hello, welcome to Kellen's doughnuts")
-customerdoughnutsorder=input ("what kind of doughnuts do you want")
-howmany=input (" doughnuts do you want? ")
-print("Thank You for your order of " +customerdoughnutsorder)
+print ("what kind of doughnut do you want")
+myorder=input ("A - chocolate B - glazed C - strawbarry")
+toppings=""
+order=""
+
+if(myorder == "A" ):
+  toppings=input ("would you like sprikles")
+  order="chocolate"
+elif(myorder == "B"):
+  toppings=input ("would you like id warm")
+  order="glazed"
+elif(myorder == "C"): 
+  toppings=input ("would you like extra strawbarrys")
+  order="strawbarry"
+
+
+
+
+
+
 
